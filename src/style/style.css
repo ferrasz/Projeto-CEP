@@ -1,0 +1,24 @@
+@import url(./global.css);
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--color-white);
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-family: var( --font-primary);
+}
+
+.btn-header{
+    text-decoration: none;
+    font-family: var(--font-primary);
+    border-radius: 15px 3px 15px 3px;
+    background-color: var(--color-green);
+    padding: 12px 30px;
+}
