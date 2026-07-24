@@ -15,10 +15,44 @@ header nav ul{
     font-family: var( --font-primary);
 }
 
+header nav ul li a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
 .btn-header{
     text-decoration: none;
     font-family: var(--font-primary);
     border-radius: 15px 3px 15px 3px;
     background-color: var(--color-green);
     padding: 12px 30px;
+    color: var( --color-black);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 54px 0;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviews{
+    display: flex;
+    gap: 5px;
+}
+
+.reviews p{
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-body);
+}
+
+.reviews span{
+    color: var(--color-gray);
 }

@@ -11,6 +11,7 @@
     --color-white: #FFFFFF;
     --color-black: #333231;
     --color-green: #B0CB1F;
+    --color-gray: #5F6C72;
 
     /*--------- FONTES ---------*/
 
@@ -29,7 +30,7 @@
     --font-weight-h2: 700;
     --font-weight-h3: 700;
     --font-weight-h4: 700;
-    --font-weight-body: 400;
+    --font-weight-body: 600;
     --font-weight-button: 500;
 
     /* FONT-FAMILY */
