@@ -109,3 +109,55 @@ main{
     color: var( --color-black);
     width: 222px;
 }
+
+/* ------------ SECTION ------------ */
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    gap: 50px;
+    background-color: rgb(245, 242, 240);
+}
+
+section h1{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h1);
+}
+
+.informations input{
+    border: 1px solid var(--color-black);
+    border-radius: 5px;
+}
+
+.container-informations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-family: var(--font-primary);
+}
+
+section form input{
+    border: 1px solid var(--color-black);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+section button{
+    font-family: var(--font-primary);
+    border-radius: 15px 3px 15px 3px;
+    background-color: var(--color-green);
+    padding: 12px 30px;
+    color: var( --color-black);
+}
