@@ -1,5 +1,7 @@
 @import url(./global.css);
 
+/* ------------ HEADER  ----------- */
+
 header{
     display: flex;
     align-items: center;
@@ -29,6 +31,8 @@ header nav ul li a{
     color: var( --color-black);
 }
 
+/* ------------ MAIN  ----------- */
+
 main{
     display: flex;
     justify-content: center;
@@ -41,6 +45,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 499px;
 }
 
 .reviews{
@@ -55,4 +60,51 @@ main{
 
 .reviews span{
     color: var(--color-gray);
+}
+
+.container-main p{
+    font-family: var(--font-primary);
+    color: var(--color-gray-2);
+}
+
+.product-prices{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.product-prices p{
+    font-size: var(--font-size-h4);
+    color: var(--color-blue);
+    font-weight: var( --font-weight-h4);
+}
+
+#span{
+    font-family: var(--font-primary);
+    font-weight: var( --font-weight-button);
+    font-size: var(--font-size-body);
+    color: var(--color-gray-3);
+    text-decoration: line-through;
+}
+
+#span2{
+    font-family: var(--font-primary);
+    background-color: var(--color-yellow);
+    padding: 5px 10px;
+    font-weight: var(--font-weight-h4);
+}
+
+.click input{
+    width: 32px;
+    height: 32px;
+}
+
+.container-main button{
+    background-color: var(--color-green);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-button);
+    border-radius: 15px 3px 15px 3px;
+    padding: 12px 30px;
+    color: var( --color-black);
+    width: 222px;
 }
