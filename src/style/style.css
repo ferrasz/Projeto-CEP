@@ -60,6 +60,7 @@ main{
 
 .reviews span{
     color: var(--color-gray);
+    font-family: var(--font-primary);
 }
 
 .container-main p{
